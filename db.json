@@ -4,19 +4,19 @@
       "id": 1,
       "nome": "Miguel Gomes Aleixo Ferreira Lima",
       "senha": "123456789",
-      "cpf": "45686900809",
+      "cpf": "456.869.008-09",
       "email": "miguel@hotmail.com",
-      "telefone": "169815338603",
-      "cep": "14401146"
+      "telefone": "(16) 98153-8603",
+      "cep": "14401-146"
     },
     {
       "id": 2,
       "nome": "Jamal Abbud Said",
       "senha": "987654321",
-      "cpf": "123435678909",
+      "cpf": "123.456.789-09",
       "email": "jamalzim@hotmail.com",
-      "telefone": "16999246924",
-      "cep": "14401145"
+      "telefone": "(16) 99924-6924",
+      "cep": "14401-145"
     }
   ],
   "dependentes": [
@@ -24,14 +24,14 @@
       "id": 1,
       "nome": "João Vitor Rodrigues",
       "dataNascimento": "05/10/2011",
-      "cpf": "32165498709",
+      "cpf": "321.654.987-09",
       "responsavel_id": 1
     },
     {
       "id": 2,
       "nome": "Enzo Freitas",
       "dataNascimento": "08/05/2012",
-      "cpf": "74185296308",
+      "cpf": "741.852.963-08",
       "responsavel_id": 1
     },
     {
@@ -45,7 +45,7 @@
       "id": 4,
       "nome": "Antonio Juventino",
       "dataNascimento": "05/06/2014",
-      "cpf": "98765432101",
+      "cpf": "987.654.321-01",
       "responsavel_id": 2
     }
   ]
