@@ -4,8 +4,7 @@
   "description": "Aplicação para o 4º Hackathon Uni-FACEF.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
