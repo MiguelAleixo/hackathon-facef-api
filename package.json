@@ -4,7 +4,8 @@
   "description": "Aplicação para o 4º Hackathon Uni-FACEF.",
   "main": "index.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "deploy": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
