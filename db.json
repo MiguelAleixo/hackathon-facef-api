@@ -1,0 +1,50 @@
+{
+  "responsaveis": [
+    {
+      "id": 1,
+      "nome": "Miguel Gomes Aleixo Ferreira Lima",
+      "cpf": "45686900809",
+      "email": "miguel@hotmail.com",
+      "telefone": "169815338603",
+      "cep": "14401146"
+    },
+    {
+      "id": 2,
+      "nome": "Jamal Abbud Said",
+      "cpf": "123435678909",
+      "email": "jamalzim@hotmail.com",
+      "telefone": "16999246924",
+      "cep": "14401145"
+    }
+  ],
+  "dependentes": [
+    {
+      "id": 1,
+      "nome": "João Vitor Rodrigues",
+      "dataNascimento": "05/10/2011",
+      "cpf": "32165498709",
+      "responsavel_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Enzo Freitas",
+      "dataNascimento": "08/05/2012",
+      "cpf": "74185296308",
+      "responsavel_id": 1
+    },
+    {
+      "id": 3,
+      "nome": "Jeredy Johnson",
+      "dataNascimento": "12/01/2015",
+      "cpf": "74125896302",
+      "responsavel_id": 2
+    },
+    {
+      "id": 4,
+      "nome": "Antonio Juventino",
+      "dataNascimento": "05/06/2014",
+      "cpf": "98765432101",
+      "responsavel_id": 2
+    }
+  ]
+}

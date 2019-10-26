@@ -1,0 +1,27 @@
+{
+  "name": "hackathon-facef-api",
+  "version": "1.0.0",
+  "description": "Aplicação para o 4º Hackathon Uni-FACEF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelAleixo/hackathon-facef-api.git"
+  },
+  "author": "Blacked Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelAleixo/hackathon-facef-api/issues"
+  },
+  "homepage": "https://github.com/MiguelAleixo/hackathon-facef-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
