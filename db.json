@@ -3,6 +3,7 @@
     {
       "id": 1,
       "nome": "Miguel Gomes Aleixo Ferreira Lima",
+      "senha": "123456789",
       "cpf": "45686900809",
       "email": "miguel@hotmail.com",
       "telefone": "169815338603",
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "nome": "Jamal Abbud Said",
+      "senha": "987654321",
       "cpf": "123435678909",
       "email": "jamalzim@hotmail.com",
       "telefone": "16999246924",
