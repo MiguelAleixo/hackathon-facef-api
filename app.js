@@ -1,9 +1,11 @@
+  
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
-const exec = require('child_process').exec;
-const myScript = exec(`json-server -p ${process.env.PORT} db.json`);
-myScript.stdout.on('data', (data)=>{
-    console.log(data); 
-});
-myScript.stderr.on('data', (data)=>{
-    console.error(data);
-});
+
+server.use(middlewares);
+server.use(router);
+
+server.listen(port);
